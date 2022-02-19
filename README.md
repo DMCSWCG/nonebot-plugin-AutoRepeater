@@ -14,7 +14,7 @@
 
 连续发送2条相同消息，机器人就会自动+1。
 
-包括普通消息，QQ表情，还有图片（表情包），稍微升级了一下，支持图片夹文字和表情夹文字的消息!。
+包括普通消息，QQ表情，还有图片（表情包）。稍微升级了一下，支持图片夹文字和表情夹文字的消息!
 
 参考于[nonebot-plugin-repeater](https://github.com/ninthseason/nonebot-plugin-repeater)插件。
 
