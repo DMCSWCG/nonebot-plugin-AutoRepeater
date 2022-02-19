@@ -25,6 +25,8 @@
 
 ## 用法简介
 
+需要安装[nonebot_plugin_apscheduler](https://github.com/nonebot/plugin-apscheduler)插件
+
 一个全局配置：
 
 ```python
