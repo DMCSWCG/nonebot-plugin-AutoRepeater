@@ -46,7 +46,8 @@ async def _(bot:Bot,event:GroupMessageEvent,state:T_State):
     if not f"{group_id}" in message_list:
         message_list[f"{group_id}"]=[]
     
-    if re.findall("CQ:at",message_text) or re.findall("CQ:json",message_text):
+    if re.findall("(CQ:at|CQ:json|CQ:forward|CQ:music|CQ:reply|CQ:anonymous|CQ:location|CQ:video|CQ:node|CQ:share|CQ:xml|CQ:contact)",message_text):
+        nonebot.logger.debug("Other Type Message Ignore!")
         return
 
     if len(message_list[f"{group_id}"])<1:
@@ -81,6 +82,7 @@ async def _(bot:Bot,event:GroupMessageEvent,state:T_State):
                 if msg.type == "text":
                     repeater_message += MessageSegment.text(Message(msg).extract_plain_text())
         if repeater_message is None:
+            nonebot.logger.debug("Other Type Message Ignore!")
             return
         try:
             await Repeat_Message.send(repeater_message)
