@@ -14,9 +14,10 @@
 
 参考于[nonebot-plugin-repeater](https://github.com/ninthseason/nonebot-plugin-repeater)插件
 
-稍微升级了一下 支持图片夹文字类型和表情夹文字的消息!
+稍微升级了一下 支持图片夹文字和表情夹文字的消息!
 
 使用文字相似度判断 Maybe有BUG。
+只支持 nonebot 2.0.0a16 ！
 
 ## 用法简介
 
