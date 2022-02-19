@@ -17,7 +17,9 @@
 包括普通消息，QQ表情，还有图片（表情包），稍微升级了一下，支持图片夹文字和表情夹文字的消息!。
 
 参考于[nonebot-plugin-repeater](https://github.com/ninthseason/nonebot-plugin-repeater)插件。
+
 使用字符串相似度判断是否自动+1，Maybe有BUG。
+
 只支持 nonebot 2.0.0a16 ！
 
 ## 用法简介
