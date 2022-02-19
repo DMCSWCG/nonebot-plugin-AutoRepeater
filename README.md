@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a><img src="https://wx3.sinaimg.cn/large/a6a681ebgy1gp0zi9wrl1j204p05igli.jpg"></a>
+  <a><img src="http://tva1.sinaimg.cn/large/006APoFYly1fzdi7y0v9wg306o06ot8t.gif"></a>
 </p>
 <div align="center">
 
