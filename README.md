@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a><img src="http://img.bq233.com/kanqq/pic/upload/2018/0813/1534152808612974.jpg" width="169" height="198" alt="nonebot"></a>
+  <a><img src="http://img.bq233.com/kanqq/pic/upload/2018/0813/1534152808612974.jpg" width="169" height="198"></a>
 </p>
 <div align="center">
 
