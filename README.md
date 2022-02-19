@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Repeater
+  # AutoRepeater
   ✨ 基于[NoneBot2](https://github.com/nonebot/nonebot2)的插件，群聊自动复读机 ✨
   </br>
   ✨ Auto Repeater ✨
