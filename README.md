@@ -17,7 +17,7 @@
 ## 用法简介
 依赖插件:
 
-需要安装\[[nonebot_plugin_apscheduler]\](https://github.com/nonebot/plugin-apscheduler)插件
+需要安装\[[nonebot_plugin_apscheduler](https://github.com/nonebot/plugin-apscheduler)\]插件
 
 两个个全局配置：
 
