@@ -1,0 +1,6 @@
+aiofiles>=23.1.0
+httpx>=0.23.0
+nonebot2>=2.0.0rc1
+pydantic>=1.8.2
+ujson>=5.1.0
+nonebot_plugin_apscheduler
