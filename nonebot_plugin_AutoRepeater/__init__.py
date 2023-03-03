@@ -40,7 +40,7 @@ async def _(bot: Bot, event: MessageEvent, state: T_State):
     if not "group_id" in event.dict():
         await Repeat_Message_Config.finish("请在群中使用！")
     group_id = event.dict()["group_id"]
-    Config_Data = repeater.read_config()
+    Config_Data = await repeater.read_config()
     if not str(group_id) in Config_Data:
         Config_Data[f"{group_id}"] = False
     Set_State = 1 if Config_Data[f"{group_id}"] else 0
@@ -51,7 +51,7 @@ async def _(bot: Bot, event: MessageEvent, state: T_State):
     if new_index == Config_Data[f"{group_id}"]:
         await Repeat_Message_Config.finish(f"当前模式已经为{now_mode}")
     Config_Data[f"{group_id}"] = True if new_index==1 else False
-    repeater.write_config(Config_Data)
+    await repeater.write_config(Config_Data)
     await Repeat_Message_Config.finish(f"设置成功！设置自动复读功能为：{RepeatMessageConfig[new_index]}")
 
 message_list = {}
