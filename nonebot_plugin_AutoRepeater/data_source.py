@@ -40,7 +40,7 @@ class Repeater:
             asyncio.run(self.WriteJson(self.config_save_path,{}))
         
     async def check_group_is_used(self,group_id):
-        data = await self.ReadJson(self.repeater_config_path)
+        data = await self.ReadJson(self.config_save_path)
         if not str(group_id) in data:
             return False
         return data[f"{group_id}"]
