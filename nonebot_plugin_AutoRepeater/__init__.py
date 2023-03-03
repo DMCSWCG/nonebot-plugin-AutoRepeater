@@ -67,7 +67,7 @@ async def _(bot:Bot,event:GroupMessageEvent,state:T_State):
         return
     group_id = int(event.dict()["group_id"])
     if not await repeater.check_group_is_used(group_id):
-        return
+        await Repeat_Message.finish()
     message_text = str(event.get_message())
     if repeat_after_message:
         for msg in repeat_after_message:
