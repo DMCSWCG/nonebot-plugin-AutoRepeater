@@ -50,5 +50,5 @@ repeater_config_path = "./data/repeater_config/" # 多群状态设置文件存�
   </a> 
   
   <a href="">
-    <img src="https://img.shields.io/badge/release-v1.0-blueviolet" alt="release">
+    <img src="https://img.shields.io/badge/release-v0.1.4-blueviolet" alt="release">
 </a>
