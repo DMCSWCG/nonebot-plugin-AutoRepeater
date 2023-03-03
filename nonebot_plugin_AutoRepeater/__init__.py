@@ -34,9 +34,10 @@ repeater = Repeater(plugin_config)
 
 Repeat_Message_Config = on_command("自动+1设置",aliases={"自动复读","自动复读设置"}, permission=SUPERUSER|GROUP_ADMIN|GROUP_OWNER,priority=10)
 @Repeat_Message_Config.handle()
-async def _(bot: Bot, event: MessageEvent, state: T_State):
+async def _(bot: Bot, event: MessageEvent, state: T_State,args: Message = CommandArg()):
+    args = args.extract_plain_text()
     RepeatMessageConfig = ["关闭","开启"]
-    args = str(event.get_message()).strip()
+    #args = str(event.get_message()).strip()
     if not "group_id" in event.dict():
         await Repeat_Message_Config.finish("请在群中使用！")
     group_id = event.dict()["group_id"]
