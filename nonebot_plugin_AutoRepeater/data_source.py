@@ -24,6 +24,7 @@ class Repeater:
         self.repeat_interval = abs(int(setup_config.repeat_interval))
         self.config_file_name = "config.json"
         self.config_save_path = Path(self.repeater_config_path,self.config_file_name)
+        self.path_check()
 
     def logger_map(self):
         self.error = nonebot.logger.error
