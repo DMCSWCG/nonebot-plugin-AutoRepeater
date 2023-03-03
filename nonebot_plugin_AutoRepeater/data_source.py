@@ -36,6 +36,7 @@ class Repeater:
         if not os.path.exists(self.repeater_config_path):
             self.warning("未找到配置文件目录！将自动创建！")
             os.makedirs(self.repeater_config_path)
+        if not os.path.exists(self.config_save_path):
             asyncio.run(self.WriteJson(self.config_save_path,{}))
         
     async def check_group_is_used(self,group_id):
