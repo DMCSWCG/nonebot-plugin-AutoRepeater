@@ -19,7 +19,7 @@
 
 - 需要安装\[[nonebot_plugin_apscheduler](https://github.com/nonebot/plugin-apscheduler)\]插件
 
-两个个全局配置：
+两个全局配置：
 
 ```python
 
