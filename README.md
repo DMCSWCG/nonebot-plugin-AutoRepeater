@@ -12,7 +12,14 @@
 
 ## 功能介绍
 
-连续发送2条相同消息，机器人就会自动+1。包括普通消息，QQ表情，还有图片（表情包）。支持图片夹文字和表情夹文字的消息!参考于[nonebot-plugin-repeater](https://github.com/ninthseason/nonebot-plugin-repeater)插件。使用字符串相似度判断是否自动+1，Maybe有BUG。
+连续发送2条相同消息，机器人就会自动+1。包括普通消息，QQ表情，还有图片（表情包）。支持图片夹文字和表情夹文字的消息!
+
+
+参考于[nonebot-plugin-repeater](https://github.com/ninthseason/nonebot-plugin-repeater)插件。
+
+使用字符串相似度判断是否自动+1，Maybe有BUG。
+
+支持复读跟随撤回功能，防止有人使用机器人复读功能爆破账号。
 
 ## 用法简介
 依赖插件:
