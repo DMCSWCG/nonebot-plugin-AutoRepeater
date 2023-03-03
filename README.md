@@ -37,9 +37,9 @@ repeater_config_path = "./data/repeater_config/" # 多群状态设置文件存�
 ```
 使用指令:
 
-- "自动+1设置","自动复读","自动复读设置"&emsp;+&emsp;["开启"/"关闭"]&emsp;控制机器人在当前群是否进行复读 可由管理员、群主和Superuser控制 
+- "自动+1设置","自动复读","自动复读设置"&emsp;+&emsp;["开启"/"关闭"]&emsp;控制机器人在当前群是否进行复读，可由管理员、群主和Superuser控制。
 
-
+***
 
 <a href="https://github.com/Utmost-Happiness-Planet/uhpstatus/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-GPL%20v3.0-orange" alt="license">
