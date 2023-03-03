@@ -5,6 +5,7 @@ from nonebot.typing import T_State
 from nonebot.matcher import Matcher
 from nonebot.adapters import Message
 from nonebot.permission import SUPERUSER
+from nonebot.params import CommandArg
 from typing import Union
 try:
     from nonebot.adapters.cqhttp import Bot, MessageSegment, GroupMessageEvent, Message, MessageEvent, GroupRecallNoticeEvent
