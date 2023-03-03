@@ -7,7 +7,7 @@ except ModuleNotFoundError as _:
     import json
 
 from difflib import SequenceMatcher
-import aiofiles
+import aiofiles,asyncio
 import httpx
 from pathlib import Path
 import imghdr, random
@@ -36,7 +36,7 @@ class Repeater:
         if not os.path.exists(self.repeater_config_path):
             self.warning("未找到配置文件目录！将自动创建！")
             os.makedirs(self.repeater_config_path)
-            self.WriteJson(self.config_save_path,{})
+            asyncio.run(self.WriteJson(self.config_save_path,{}))
         
     async def check_group_is_used(self,group_id):
         data = await self.ReadJson(self.repeater_config_path)
